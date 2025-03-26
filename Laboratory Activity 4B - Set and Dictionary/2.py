@@ -29,7 +29,7 @@ def main():
         return
     
     try:
-        amount = float(input("How much dollar do you have? "))
+        amount = float(input("How much dollar do you have\? "))
         target_code = input("What currency you want to have? ").upper()
         
         if target_code in currency_data:
